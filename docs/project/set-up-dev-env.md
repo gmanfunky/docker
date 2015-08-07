@@ -391,9 +391,9 @@ onto the `/go` directory inside the container.
 
 6. Create a fresh binary, but this time, use the `make` command.
 
-        $ make BINDDIR=. binary
+        $ make BINDIR=. binary
 
-    The `BINDDIR` flag is only necessary on Mac OS X but it won't hurt to pass
+    The `BINDIR` flag is only necessary on Mac OS X but it won't hurt to pass
     it on Linux command line. The `make` command, like the `make.sh` script
     inside the container, reports its progress. When the make succeeds, it
     returns the location of the new binary.
